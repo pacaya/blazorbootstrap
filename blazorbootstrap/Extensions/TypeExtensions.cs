@@ -58,6 +58,12 @@ public static class TypeExtensions
         if (propertyTypeName.Contains(StringConstants.PropertyTypeNameBoolean, StringComparison.InvariantCulture))
             return StringConstants.PropertyTypeNameBoolean;
 
+        if (propertyTypeName.Contains(StringConstants.PropertyTypeNameGuid, StringComparison.InvariantCulture))
+            return StringConstants.PropertyTypeNameGuid;
+
+        if (propType?.IsEnum ?? false)
+            return StringConstants.PropertyTypeNameEnum;
+
         return string.Empty;
     }
 
