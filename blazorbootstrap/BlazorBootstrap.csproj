@@ -2,7 +2,7 @@
 
   <PropertyGroup>
 
-    <PackageId>Blazor.Bootstrap</PackageId>
+    <PackageId>Sf.Blazor.Bootstrap</PackageId>
     <Version>2.2.1</Version>
     <PackageVersion>2.2.1</PackageVersion>
 
